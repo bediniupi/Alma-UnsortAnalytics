@@ -35,32 +35,32 @@ LOCATE("Caption"."Column", 'elem32;elem12;elem13;elem76;elem22;elem02')
 
 In a new column with this formula, we have this result:
 
-elem02  34
+elem02 =  35
 
-elem12   6
+elem12 =  7
 
-elem13  13
+elem13 = 14
 
-elem22  26
+elem22 = 27
 
-elem32   0
+elem32  = 1
 
-elem76  21
+elem76  = 22
 
 
 So if we add an ascendig sorting to the new column we obtain the result as ordered as IN filter elements:
 
-elem32   0
+elem32   1
 
-elem12   6
+elem12   7
 
-elem13  13
+elem13  14
 
-elem76  21
+elem76  22
 
-elem22  26
+elem22  27
 
-elem02  34
+elem02  35
 
 
 Instead to add the new column manually (possible if there are few data) here you a bookmarklet code that modify the analysis in a click.
