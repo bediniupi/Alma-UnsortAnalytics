@@ -15,6 +15,7 @@ In Analytics even if a sorting is not applied the results are sorted by the firs
 
 "Caption"."Column" IN "elem32;elem12;elem13;elem76;elem22;elem02"
 and you do not want a result reordered like this:
+
 elem02
 elem12
 elem13
@@ -27,6 +28,7 @@ We need to assign a sorting numeric value that depends on the position of the no
 LOCATE("Caption"."Column", 'elem32;elem12;elem13;elem76;elem22;elem02') 
 
 In a new column with this formula, we have this result:
+
 elem02  34
 elem12   6
 elem13  13
