@@ -17,11 +17,17 @@ In Analytics even if a sorting is not applied the results are sorted by the firs
 and you do not want a result reordered like this:
 
 elem02
+
 elem12
+
 elem13
+
 elem22
+
 elem32
+
 elem76
+
 
 We need to assign a sorting numeric value that depends on the position of the not ordere elements in the IN filter: to obtain this we can use the LOCATE string function like this:
 
