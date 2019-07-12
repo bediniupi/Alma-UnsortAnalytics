@@ -6,7 +6,7 @@ This is only for reference purpose, use the bookmarklet version in Ex Libris Alm
 var _t = "ANALYTICS UNSORT BookMarkLet by Nazzareno Bedini - Università di Pisa\n\n"; // title and author of the script
 var _cid = "bediniupi0unsortcolumn"; // unsorting column id
 var _saw = document.getElementsByName("XmlText")[0].value; // get the advanced xml textarea content 
-var _mx = 4000; // max length of single string, Oracle doesn't like over 4k
+var _mx = 4000; // max length of single string, Oracle doesn't like strings length over 4k
 if (_saw.indexOf(_cid) !== -1) {
      alert("Error: unsorting column already exists"); // column exist yet, exit
     return;
