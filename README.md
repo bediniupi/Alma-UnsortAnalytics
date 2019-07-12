@@ -3,7 +3,7 @@ Add a calculated position column in Analytics report sorting the results based o
 ## Installation
 Drag and drop the bookmarklet in your browser bookmark toolbar (or other bookmark menu if you prefer).
 
-[Alma unsort Analytics](https://bediniupi.github.io)
+[Alma unsort Analytics](https://bediniupi.github.io/Alma-UnsortAnalytics/Alma_unsortAnalytics.html)
 
 ## Use
 In a  Analytics reports whit a IN filter with many elements go to Advanced Tab and click on the bookmarklet saved.
